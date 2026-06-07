@@ -13,9 +13,11 @@
       --line: #d9e0e8;
       --ai: #2457c5;
       --traffic: #08705f;
+      --invest: #7c3aed;
       --learn: #8a5a00;
       --soft-ai: #edf4ff;
       --soft-traffic: #edf8f5;
+      --soft-invest: #f3efff;
       --soft-learn: #fff7e6;
     }
 
@@ -71,6 +73,7 @@
 
     .section-title.ai { color: var(--ai); }
     .section-title.traffic { color: var(--traffic); }
+    .section-title.invest { color: var(--invest); }
     .section-title.learn { color: var(--learn); }
 
     .card {
@@ -84,6 +87,7 @@
 
     .card.ai { border-top: 5px solid var(--ai); }
     .card.traffic { border-top: 5px solid var(--traffic); }
+    .card.invest { border-top: 5px solid var(--invest); }
 
     .card-head {
       display: flex;
@@ -108,6 +112,7 @@
 
     .ai .num { background: var(--ai); }
     .traffic .num { background: var(--traffic); }
+    .invest .num { background: var(--invest); }
 
     h2, h3 {
       margin: 0;
@@ -204,7 +209,7 @@
       <p class="eyebrow">试刊 v2 · 2026-06-07</p>
       <h1>AI + 交通行业精编日报</h1>
       <div class="judgement">
-        <strong>一句话判断：</strong>今天更值得团队关注的不是 AI 公司估值，而是两个落地点：一是如何把 AI 学习变成团队工作流，二是交通监管正在向数据化、智能化、风险闭环演进。
+        <strong>一句话判断：</strong>今天更值得团队关注的是三件事：AI 学习要变成团队工作流，AI 投资要看资本抽水和估值逻辑，交通监管正在向数据化、智能化、风险闭环演进。
       </div>
     </header>
 
@@ -252,6 +257,22 @@
       <div class="source">来源：AI 内参 2026-06-07；原文 少数派<br><a href="https://sspai.com/post/110763">查看原文</a></div>
     </article>
 
+    <h2 class="section-title invest">AI 投资资讯</h2>
+
+    <article class="card invest">
+      <div class="card-head">
+        <span class="num">1</span>
+        <div>
+          <h3>三巨兽上市前夜，AI 资本抽水正在改变美股定价</h3>
+          <div class="tags"><span class="tag">AI 投资</span><span class="tag">资本抽水</span><span class="tag">估值逻辑</span></div>
+        </div>
+      </div>
+      <p><span class="label">发生了什么：</span>文章把 SpaceX 潜在 IPO 放到 OpenAI、Anthropic 等高估值 AI 公司的融资环境里观察，讨论巨型科技资产上市前后，资本市场资金池和定价逻辑可能发生的变化。</p>
+      <p class="row"><span class="label">为什么值得看：</span>这类内容适合单独放进投资板块，因为它不是一般 AI 新闻，而是在提醒我们：AI 热度、公司估值、上市节奏和资金流向之间是互相影响的。</p>
+      <p class="row"><span class="label">对我们的启发：</span>看 AI 投资不能只看“谁最火”，还要看资本是否还能持续供血、盈利预期是否匹配估值、以及大型资产上市会不会改变市场对 AI 公司的定价。</p>
+      <div class="source">来源：AI 内参 2026-06-07；原文 The Atlantic<br><a href="https://www.theatlantic.com/technology/2026/06/spacex-ipo-anthropic-openai/687443/?utm_source=feed">查看原文</a></div>
+    </article>
+
     <h2 class="section-title traffic">交通行业精选 2 条</h2>
 
     <article class="card traffic">
@@ -291,7 +312,7 @@
       </ol>
     </section>
 
-    <footer>试刊 v2：已去除投资类内容，强化 Harness 和团队学习方向。</footer>
+    <footer>试刊 v2：新增 AI 投资资讯板块，强化 Harness 和团队学习方向。</footer>
   </main>
 </body>
 </html>
